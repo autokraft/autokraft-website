@@ -1,0 +1,127 @@
+﻿/* 
+    Document   : style
+    Created on : Apr 11, 2012, 11:06:18 PM
+    Author     : aditya
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    background-image: url("../images/back.gif");
+    background-position: center top;
+    background-repeat: repeat;
+    background-size: auto   
+}
+
+.auto-style1 {
+	/*position: relative;
+	left: 235px;*/
+	width: 470px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.string {
+    position:relative;
+    top:90px;
+    z-index: -1;
+    border-bottom:  2px solid #7A6B61;
+}
+
+.logo {
+    /*position: relative;
+    top:5px;
+    left:235px;*/
+    width:460px;
+    background: #7A6B61;
+    height: 147px;
+    padding:10px;
+}
+
+.logo_inner {
+    height:147px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+.logo_text {
+    margin-top:38px;
+    text-align: center;
+    margin-left:5px;
+}
+
+.logo_font0 {
+    font-size: 45px;
+    color:#fff;
+    
+}
+
+.logo_font1 {
+    font-size: 21px;
+    color:#fff;
+    margin-top:20px;
+}
+
+.menu {
+    position: relative;
+    left:235px;
+    width:470px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.menu_link {
+    font-size: 16px;
+    padding: 0 10px;
+    text-decoration: none;
+    color:  #514741;
+}
+.menu_link:hover {
+    color:  #000;
+    text-decoration: none;
+}
+
+.active {
+    color:  #000;
+    font-size: 18px;
+}
+
+.content {
+    margin-top:10px;
+    background: #fff;
+    border: 1px solid #7A6B61;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    text-align: center;
+}
+
+.content h1 {
+    margin-top:20px;
+}
+
+.content-columns {
+    text-align: left;
+    padding: 30px 42px;
+}
+
+.title {
+    color:  #7A6B61;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    color:  #7A6B61;
+    margin:  20px 0;
+}
+
+.upArrow {
+    position:fixed;
+    left:1130px; 
+    bottom:20px; 
+    opacity:0.8; 
+    width:80px;
+    display:none;
+    outline: none;
+}
