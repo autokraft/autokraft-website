@@ -1,4 +1,4 @@
-autokraft.github.com
+autokraft.github.io
 ====================
 
 Autokraft Website
